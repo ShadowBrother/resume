@@ -113,3 +113,23 @@ h6 {
 	font-style: bold ;
 	font-size: .8em ;
 }
+
+@media screen and (max-width: 450px) {
+    
+    .name {
+        font-size: 2em;
+        float: none;
+    }
+   
+     .header dl {
+        float: none;
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .details {
+        margin-top: 170px;
+    }
+}
