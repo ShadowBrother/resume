@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+	<metadata>
+		<title>Jesse Hoyt's Resume</title>
+		<css>resume.css</css>
+	</metadata>
+	<header>
+		<name>Jesse Hoyt</name>
+		<email>jesselhoyt@gmail.com</email>
+		<phone>Home: (978) 433-0405</phone>
+		<phone>Cell: (978) 302-1949</phone>
+	</header>
+	<details>
+		<skills>
+			<skill-group type="Programming Languages">
+				<skill>C</skill>
+				<skill>C++</skill>
+				<skill>SQL</skill>
+				<skill>Javascript</skill>
+				<skill>JQuery</skill>
+				<skill>Perl</skill>
+				<skill>HTML</skill>
+				<skill>CSS</skill>
+				<skill>Scheme</skill>
+				<skill>IA32/Mic1 Assembly</skill>
+			</skill-group>
+			<skill-group type="Development Tools">
+				<skill>Visual Studios 2008/10</skill>
+				<skill>Netbeans</skill>
+				<skill>Notepad++</skill>
+				<skill>Emacs</skill>
+				<skill>gcc/g++</skill>
+			</skill-group>
+			<skill-group type="Operating Systems">
+				<skill>Windows XP/Vista/7</skill>
+				<skill>Linux/Unix</skill>
+			</skill-group>
+		</skills>
+		<education>
+			<school>
+				<name>University of Massachusetts Lowell</name>
+				<location>Lowell, MA</location>
+				<degree>Bachelor&apos;s of Science in Computer Science (Fall 2012)</degree>
+				<accomplishment>GPA : 3.2</accomplishment>
+				<accomplishment>John and Abigail Adams Scholarship</accomplishment>
+			</school>
+		</education>
+	</details>
+	<projects>
+		<project>
+			<title>XML Builder</title>
+			<link>/XMLbuilder/</link>
+			<description>Website that allows interactive manipulation of xml documents.
+			Uses javascript to allow insertion of new elements to specific places
+			and deletion of specific elements.</description>
+		</project>
+		<project>
+			<title>Black Jack</title>
+			<link>/blackJack/</link>
+			<description>Black Jack game. Exercise in object oriented programming with cards, decks and hands.
+			Deck can be shuffled and deal random hands. Hands can be added to and checked for
+			value.</description>
+		</project>
+		<project>
+			<title>Resume Builder</title>
+			<link>/resumeBuilder.html</link>
+			<description>Builds resume page using AJAX</description>
+		</project>
+		<project>
+			<title>Core Gaming Site</title>
+			<link>/CoreGaming/</link>
+			<description>WIP Website for a used gaming store. Uses perl, AJAX, and sqlite to build pages, display inventory from database, and manage login session.</description>
+		</project>
+	</projects>
+	<experience>
+	<experience-item>
+			<title>United Natural Foods, Inc.</title>
+			<location>Burlington, MA</location>
+			<position>Sales</position>
+			<time>March 2013 - Present</time>
+			<description>Aid primary sales rep in ticketing and stocking grocery products as well as assisting store customers as needed.</description>
+		</experience-item>
+		<experience-item>
+			<title>United Parcel Service</title>
+			<location>Chelmsford, MA</location>
+			<position>Unloader</position>
+			<time>August 2010 - Present</time>
+			<description>Fast-paced and physical work unloading trucks independently and with others to finish in a timely manner.</description>
+		</experience-item>
+		<experience-item>
+			<title>Boy Scouts of America, Troop 26</title>
+			<location>Pepperell, MA</location>
+			<position>Eagle Scout</position>
+			<time>August 2007</time>
+			<description>Planned Eagle and created work schedule for Eagle Scout project entailed replacing doors and windows
+		on the town&apos;s emergency response garage, repainting it, cleaning up the area around it, and making small repairs.
+		Contacted and organized volunteers; delegated responsibilities according to availability and expertise.
+		Project resulted in the preservation of the building for continued use by the town.</description>
+		</experience-item>
+	</experience>
+</resume>
