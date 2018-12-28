@@ -100,7 +100,7 @@ function buildPage(url){
 					for(i = 0, len = schools.length ; i < len ; i++){
 				
 						$education.append($('<h4>' + schools[i].getElementsByTagName("name")[0].firstChild.nodeValue + '</h4>')) ;
-						$education.append($('<h5>' + schools[i].getElementsByTagName("location")[0].firstChild.nodeValue + '</h5>')) ;
+						if(schools[i].getElementsByTagName("location").length > 0) $education.append($('<h5>' + schools[i].getElementsByTagName("location")[0].firstChild.nodeValue + '</h5>')) ;
 						$education.append($('<h6>' + schools[i].getElementsByTagName("degree")[0].firstChild.nodeValue + '</h6>')) ;
 						accomplishments = schools[i].getElementsByTagName("accomplishment") ;
 						if(accomplishments != undefined){

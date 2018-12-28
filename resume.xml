@@ -7,7 +7,6 @@
 	<header>
 		<name>Jesse Hoyt</name>
 		<email>jesselhoyt@gmail.com</email>
-		<phone>Home: (978) 433-0405</phone>
 		<phone>Cell: (978) 302-1949</phone>
 	</header>
 	<details>
@@ -19,20 +18,22 @@
 				<skill>Javascript</skill>
 				<skill>JQuery</skill>
 				<skill>Perl</skill>
+        <skill>Python</skill>
 				<skill>HTML</skill>
 				<skill>CSS</skill>
 				<skill>Scheme</skill>
 				<skill>IA32/Mic1 Assembly</skill>
 			</skill-group>
 			<skill-group type="Development Tools">
-				<skill>Visual Studios 2008/10</skill>
+				<skill>Visual Studios 2008/10/15</skill>
 				<skill>Netbeans</skill>
 				<skill>Notepad++</skill>
 				<skill>Emacs</skill>
 				<skill>gcc/g++</skill>
+        <skill>git</skill>
 			</skill-group>
 			<skill-group type="Operating Systems">
-				<skill>Windows XP/Vista/7</skill>
+				<skill>Windows XP/Vista/7/10</skill>
 				<skill>Linux/Unix</skill>
 			</skill-group>
 		</skills>
@@ -40,10 +41,15 @@
 			<school>
 				<name>University of Massachusetts Lowell</name>
 				<location>Lowell, MA</location>
-				<degree>Bachelor&apos;s of Science in Computer Science (Fall 2012)</degree>
+				<degree>Bachelor&apos;s of Science in Computer Science</degree>
 				<accomplishment>GPA : 3.2</accomplishment>
 				<accomplishment>John and Abigail Adams Scholarship</accomplishment>
 			</school>
+      <school>
+        <name>Udacity</name>
+        <degree>Mobile Web Specialist Nanodegree</degree>
+        <accomplishment>Grow with Google Scholarship</accomplishment>
+      </school>
 		</education>
 	</details>
 	<projects>
@@ -78,14 +84,15 @@
 			<location>Burlington, MA</location>
 			<position>Sales</position>
 			<time>March 2013 - Present</time>
-			<description>Aid primary sales rep in ticketing and stocking grocery products as well as assisting store customers as needed.</description>
+			<description>Aid primary sales rep in stocking grocery products as well as setting up displays, changing price tags, and assisting store customers as needed.</description>
 		</experience-item>
 		<experience-item>
 			<title>United Parcel Service</title>
 			<location>Chelmsford, MA</location>
 			<position>Unloader</position>
-			<time>August 2010 - Present</time>
-			<description>Fast-paced and physical work unloading trucks independently and with others to finish in a timely manner.</description>
+			<time>August 2010 - March 2018</time>
+			<description>Started with fast-paced and physical work unloading trucks independently and with others to finish in a timely manner. Switched to sorting stream of
+      packages based on zip code to one of 16 belts. Required good memory and quick reaction time.</description>
 		</experience-item>
 		<experience-item>
 			<title>Boy Scouts of America, Troop 26</title>
