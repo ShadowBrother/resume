@@ -63,6 +63,10 @@ dt {
 	margin-top: 5px ;
 }
 
+.projects dt {
+    margin: 5px 0;
+}
+
 a {
 	
 	text-decoration:none;
