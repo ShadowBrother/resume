@@ -108,8 +108,14 @@ function buildPage(url){
 							for(j = 0, len2 = accomplishments.length ; j < len2 ; j++){
 								$ul.append('<li>' + accomplishments[j].firstChild.nodeValue + '</li>') ;
 							}
+                            
+                            certificate = schools[i].getElementsByTagName("certificate");
+                            if(certificate.length != 0){
+                                $ul.append('<li><a href=' + certificate[0].firstChild.nodeValue + '>Certificate</a></li>');
+                            }
 							$education.append($ul) ;
 						}
+                        
 					}
 					$details.append($education) ;
 				}

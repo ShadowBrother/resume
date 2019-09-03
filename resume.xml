@@ -45,11 +45,12 @@
 				<accomplishment>GPA : 3.2</accomplishment>
 				<accomplishment>John and Abigail Adams Scholarship</accomplishment>
 			</school>
-      <school>
-        <name>Udacity</name>
-        <degree>Mobile Web Specialist Nanodegree</degree>
-        <accomplishment>Grow with Google Scholarship</accomplishment>
-      </school>
+            <school>
+                <name>Udacity</name>
+                <degree>Mobile Web Specialist Nanodegree</degree>
+                <accomplishment>Grow with Google Scholarship</accomplishment>
+                <certificate>https://confirm.udacity.com/AE5HZKKG</certificate>
+            </school>
 		</education>
 	</details>
 	<projects>
